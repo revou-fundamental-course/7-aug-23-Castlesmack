@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trígono</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        .area{
+            display: block;
+            margin: auto;
+        }
+        .perimeter{
+            display: block;
+            margin: auto;
+        }
+        .images{
+            display: block;
+            margin: auto;
+        }
+    </style>
+    <link rel="icon" type="image/png" href="/images/Screenshot 2023-08-15 133237.png">
+</head>
+<body>
+        <header style="background-color: rgb(12, 92, 197); border:2px solid; border-radius:5px">
+        <br>
+        <b><h1 id="h1" align="center">welcome to trígono</h1></b>
+        <p id="P1" align="center">this is a simple web app that functions to calculate the area & perimeter of triangles</p>
+        <A title="Area" href="index.html"><button class="area" borders="5px"; ; style="border:2px solid; font-size:25px; ; background-color:rgb(40, 40, 141) ; border-radius:5px">Area of triangles</button></A>
+        <A title="Current"href="page2.html"><button class="perimeter" borders="5px"; ; style="border:2px solid; font-size:25px; ; background-color:rgb(33, 33, 194) ; border-radius:5px">Perimeter of triangles</button></A>       
+        
+        <br>
+        </header>
+        <br>
+        <img class="images" borders="5px"; ; style=" border:2px solid; border-radius:5px" type="image/jpg" src="/images/Kumpulan-Rumus-Luas-dan-Keliling-Bangun-Datar.jpg"><br>
+        <b>
+        <div id="P2" class="below" style="background-color: rgb(0, 132, 255); border:2px solid; border-radius:5px ">
+        <p align=center>L = 1/2 + a + t</p>
+        <label id="aLabel" >a:</label><br>
+        <input style=" border:2px solid; border-radius:5px"type="text" id="aTextBox"><br>
+        <label id="bLabel" >t:</label><br>
+        <input style=" border:2px solid; border-radius:5px"type="text" id="bTextBox">
+        <br><br>
+        <button style=" border:2px solid; border-radius:5px" type="button" id="submitButton">Submit</button>
+        
+        <label id="aLabel" >Results: </label>
+        <label id="output"></label>
+        </b>
+    <script src="js/index2.js"></script>
+</body>
+</html>

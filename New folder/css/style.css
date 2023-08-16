@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(141, 148, 255);
+}
+
+@font-face {
+    font-family: "Cooper Black";
+    src: url("/fonts/cooper-black.otf");
+  }
+  
+#P1 {
+   font-size: 25px; font-family: "Cooper Black", serif;
+  }
+#h1{
+  font-family: "Cooper Black", serif;
+}
+#P2{
+  font-size: 25px;
+}
+#B1{
+  font-size: 15px
+}
